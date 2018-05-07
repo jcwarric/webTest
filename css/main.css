@@ -1,0 +1,128 @@
+
+* {
+	/*border: 1px solid blue; */
+	font-family: 'Times New Roman';
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+p
+{
+	font-size:12px;
+}
+
+.sideBar
+{
+	padding:20px;
+	text-align: center;
+	color:black;
+	background-color: rgb(237,199,183);
+}
+.content
+{
+	
+	 text-align:justify;
+	 padding-left:20px;
+	 padding-right:20px;
+}
+
+.myName
+{
+	/*font-family: 'Montserrat', sans-serif;*/
+	background-color: rgb(18,60,105);
+}
+.header
+{
+	background-color:rgb(172,59,97);
+	color:rgb(238,226,220);
+}
+
+.trendsResult
+{
+	/*width: 80%;
+	height: 100%;*/
+}
+
+.hangingindent{
+	padding-left: 22px;
+	text-indent:-22px;
+}
+
+.captionType
+{
+ 	font-size:10px;
+ 	font-family:'Times New Roman';
+
+}
+
+.img_in_text
+{
+	float:left;
+	border:1px dotted rgb(238,226,220);
+	padding: 0px 0px 15px 20px;
+}
+.row{
+	width: 100%;
+	display:flex; flex-wrap:wrap;
+}
+
+.col-1{
+	width:8.33%;
+	
+}
+
+.col-2{
+	width:16.66%;
+	
+}
+
+.col-3{
+	width:25%;
+	
+}
+
+.col-4{
+	width:33.33%;
+
+}
+
+.col-5{
+	width:41.66;
+}
+
+.col-6{
+	width:50.0%;
+	
+}
+
+.col-7{
+	width: 58.33%;
+	
+}
+
+.col-8{
+	width: 66.66%;
+}
+
+.col-9{
+	width: 75.0%;
+}
+
+.col-10{
+	width:83.33%;
+	
+}
+
+.col-11{
+	width:91.66%;
+}
+
+.text_with_overflow
+{
+	overflow:auto;
+}
